@@ -17,7 +17,7 @@ Este é o backend de uma aplicação teste - O objetivo dessa aplicação é con
 ## **Endpoints**
 
 A API tem um total de 4 endoints.
-O url da API é 
+O url da API é https://json-server-first-api-fake.herokuapp.com/
 
 ## Endpoints
 
