@@ -21,6 +21,38 @@
       "difficulty": "médio",
       "userId": 2,
       "id": 1
+    },
+    {
+      "name": "Banhar o doghinho",
+      "difficulty": "médio",
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "name": "Banhar o doghinho",
+      "difficulty": "médio",
+      "userId": 2,
+      "id": 3
+    }
+  ],
+  "birthday": [
+    {
+      "name": "fulana",
+      "date": "31/01/2022",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "name": "Anastácia",
+      "date": "29/02/2022",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "name": "Jesus",
+      "date": "25/12/2022",
+      "userId": 1,
+      "id": 3
     }
   ]
 }
