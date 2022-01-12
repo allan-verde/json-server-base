@@ -6,6 +6,21 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "kenzojr@mail.com",
+      "password": "$2a$10$DIsK8JhqCHgDwYC/WlX/6eLRSIlcgSmj1lDL9RpKjJv/DXqHotao2",
+      "name": "Kenzo junior",
+      "age": 4,
+      "id": 2
+    }
+  ],
+  "tasks": [
+    {
+      "name": "passear com o dog",
+      "difficulty": "médio",
+      "userId": 2,
+      "id": 1
     }
   ]
 }
