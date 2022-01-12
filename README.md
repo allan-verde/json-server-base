@@ -7,7 +7,7 @@
 </h1>
 
 <p align = "center">
-Este é o backend de uma aplicação teste - O objetivo dessa aplicação é conseguir cadastrar usuário e tarefas
+Este é o backend de uma aplicação teste - O objetivo dessa aplicação é conseguir cadastrar usuário, tarefas e datas de aniversário
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@ Este é o backend de uma aplicação teste - O objetivo dessa aplicação é con
 
 ## **Endpoints**
 
-A API tem um total de 4 endoints.
+A API tem um total de 6 endoints.
 O url da API é https://json-server-first-api-fake.herokuapp.com/
 
 ## Endpoints
@@ -70,6 +70,18 @@ Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usu
 
 - não necessário
 
+### Consultar Datas de aniversários
+
+`GET /birthday`
+
+### Consultar datas de aniversário específicas por data
+
+`GET /tasks?date=:date`
+
+#### formato da requisição:
+
+- não necessário
+
 ## Rotas que necessitam de autorização
 
 Rotas que necessitam de autorização deve ser informado no cabeçalho da requisição o campo "Authorization", dessa forma:
@@ -86,5 +98,18 @@ Rotas que necessitam de autorização deve ser informado no cabeçalho da requis
 	"name": "passear com o dog",
 	"difficulty": "médio",
 	"userId": 2
+}
+```
+
+### Cadastro de novas datas de aniversário
+
+`POST /birthday`
+
+#### formato da requisição:
+```json
+{
+	"name": "Jesus",
+	"date": "25/12/2022",
+	"userId": 1
 }
 ```
