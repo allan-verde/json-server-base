@@ -25,9 +25,9 @@ Assim como a documentação do JSON-Server-Auth traz (https://www.npmjs.com/pack
 
 ### Cadastro
 
-POST /register <br/>
-POST /signup <br/>
-POST /users
+`POST /register` <br/>
+`POST /signup` <br/>
+`POST /users`
 
 #### formato da requisição: 
 ```json
@@ -45,8 +45,8 @@ Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do
 
 ### Login
 
-POST /login <br/>
-POST /signin
+`POST /login` <br/>
+`POST /signin`
 
 #### Formato da requisição:
 ```json
@@ -60,11 +60,11 @@ Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usu
 
 ### Consultar Tarefas
 
-GET /tasks
+`GET /tasks`
 
 ### Consultar tarefas específicas de cada usuário
 
-GET /tasks?id=:user_id
+`GET /tasks?id=:user_id`
 
 #### formato da requisição:
 
@@ -78,7 +78,7 @@ Rotas que necessitam de autorização deve ser informado no cabeçalho da requis
 
 ### Cadastro de novas tarefas
 
-POST /tasks
+`POST /tasks`
 
 #### formato da requisição:
 ```json
